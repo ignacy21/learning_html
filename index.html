@@ -106,5 +106,102 @@
         <button style="width: 300; height: 70; font-size: 30; background-color: blueviolet; color: blue;"><b>LEGO STAR WARS</b></button>
     </a>
     <br>
+
+    
+    <form action="action_page.php" method="GET">
+        <div>
+            <label for="f_name">first name:</label>
+            <input  type="text" id="f_name" name="f_name" placeholder="Name">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="l_name">last name:</label>
+            <input  type="text" id="l_name" name="l_name" placeholder="Last name" required>
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="password">Password:</label>
+            <input  type="password" id="password" name="password" maxlength="16" required placeholder="password">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input  type="email" id="email" name="email" maxlength="16" required placeholder="email">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">Phone number:</label>
+            <input  type="tel" id="phone" name="phone" maxlength="11" required placeholder="phone number">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="date">Birth date:</label>
+            <input  type="date" id="date" name="date"required >
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="legs">How many legs do you have:</label>
+            <input  type="number" id="legs" name="legs" min="0" max="100" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="gender"></label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female">
+
+        </div>
+
+        <br>
+
+        <div>
+            <label for="personality">Who are you:</label>
+            <select name="personality" id="personality">
+                <option value="human">human</option>
+                <option value="alien">alien</option>
+                <option value="horse">horse</option>
+
+            </select>
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="present">I want to get present:</label>
+            <input type="checkbox" name="present" value="present">
+        
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+    <br>
 </body>
 </html>
